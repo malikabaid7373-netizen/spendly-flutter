@@ -1,0 +1,33 @@
+name: spendly
+description: A premium bilingual personal expense and budget tracker built with Flutter.
+publish_to: 'none'
+version: 1.2.0+4
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5
+  go_router: ^15.1.3
+  sqflite: ^2.4.1
+  path: 1.9.0
+  shared_preferences: ^2.5.3
+  intl: 0.19.0
+  fl_chart: ^0.71.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
